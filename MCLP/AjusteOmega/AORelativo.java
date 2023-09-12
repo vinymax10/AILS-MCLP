@@ -3,9 +3,9 @@ package AjusteOmega;
 import java.text.DecimalFormat;
 
 import AjustDist.DistIdeal;
-import Dados.Instancia;
-import MetaHeuristicas.Config;
-import MetaHeuristicas.Media;
+import Data.Instancia;
+import SearchMethod.Config;
+import SearchMethod.Media;
 
 public class AORelativo implements AjusteOmega
 {

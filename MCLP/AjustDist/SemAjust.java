@@ -1,7 +1,7 @@
 package AjustDist;
 
-import MetaHeuristicas.Config;
-import MetaHeuristicas.Media;
+import SearchMethod.Config;
+import SearchMethod.Media;
 
 public class SemAjust extends ADist
 {

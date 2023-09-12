@@ -4,9 +4,9 @@ import java.text.DecimalFormat;
 import java.util.Random;
 
 import AjustDist.DistIdeal;
-import Dados.Instancia;
-import MetaHeuristicas.Config;
-import MetaHeuristicas.Media;
+import Data.Instancia;
+import SearchMethod.Config;
+import SearchMethod.Media;
 
 public class AODistancia implements AjusteOmega
 {

@@ -1,6 +1,6 @@
 package AjustDist;
 
-import MetaHeuristicas.Config;
+import SearchMethod.Config;
 
 public abstract class ADist 
 {
