@@ -57,7 +57,8 @@ public class InputParameters
 		System.out.println("File: " + file);
 		System.out.println("limit: " + limit);
 		System.out.println("Best: " + best);
-		System.out.println("LimitTime: " + limit);
+		System.out.println("p: " + p);
+		System.out.println("r: " + r);
 		System.out.println(config);
 	}
 
@@ -121,7 +122,6 @@ public class InputParameters
 
 	public int getP(String texto)
 	{
-		int p = 50;
 		try
 		{
 			p = Integer.valueOf(texto);
@@ -135,7 +135,6 @@ public class InputParameters
 
 	public int getR(String texto)
 	{
-		int r = 400;
 		try
 		{
 			r = Integer.valueOf(texto);
