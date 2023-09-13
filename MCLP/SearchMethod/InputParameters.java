@@ -7,10 +7,10 @@ public class InputParameters
 
 	private String file = "";
 	private double limit = Double.MAX_VALUE;
-	private double best = 0;
+	private double best = Double.MAX_VALUE;
 	private Config config = new Config();
-	private int p;
-	private int r;
+	private int p=50;
+	private int r=400;
 
 	public void readingInput(String[] args)
 	{
@@ -93,6 +93,7 @@ public class InputParameters
 
 	public double getBest(String texto)
 	{
+		
 		try
 		{
 			best = Double.valueOf(texto);
@@ -134,7 +135,7 @@ public class InputParameters
 
 	public int getR(String texto)
 	{
-		int r = 30;
+		int r = 400;
 		try
 		{
 			r = Integer.valueOf(texto);
