@@ -6,19 +6,19 @@ import Solution.NoSol;
 
 public class DistanciaCrescente implements Comparator<NoSol>
 {
-	public int compare(NoSol a, NoSol b) 
+	public int compare(NoSol a, NoSol b)
 	{
-		if(a.isFacilidade()&&!b.isFacilidade())
+		if(a.isFacilidade() && !b.isFacilidade())
 			return -1;
-		if(!a.isFacilidade()&&b.isFacilidade())
+		if(!a.isFacilidade() && b.isFacilidade())
 			return 1;
-		
-		if(a.distancia==b.distancia)
+
+		if(a.distancia == b.distancia)
 			return 0;
-		
-		if(a.distancia>b.distancia)
+
+		if(a.distancia > b.distancia)
 			return 1;
-		
+
 		return -1;
 	}
 }

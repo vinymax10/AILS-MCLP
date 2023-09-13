@@ -1,6 +1,6 @@
 package Data;
 
-public class Otimo 
+public class Otimo
 {
 	private double otimo;
 
@@ -9,13 +9,14 @@ public class Otimo
 		this.otimo = otimo;
 	}
 
-	public double getOtimo() {
+	public double getOtimo()
+	{
 		return otimo;
 	}
 
-	public synchronized void setOtimo(double d) {
+	public synchronized void setOtimo(double d)
+	{
 		this.otimo = d;
 	}
 
-	
 }

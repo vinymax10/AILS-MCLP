@@ -4,19 +4,18 @@ public class NoKnn implements Comparable<NoKnn>
 {
 	public int nome;
 	public double dist;
-	
-	
-	
+
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		return "NoKnn [nome=" + nome + ", dist=" + dist + "]";
 	}
 
-	public int compareTo(NoKnn x) 
+	public int compareTo(NoKnn x)
 	{
-		if(this.dist<x.dist)
+		if(this.dist < x.dist)
 			return -1;
-		else if(this.dist>x.dist)
+		else if(this.dist > x.dist)
 			return 1;
 		return 0;
 	}
