@@ -6,7 +6,7 @@ Adaptive Iterated Local Search (AILS) is an iterated local search-based meta-heu
 
 Those interested in using any part of this algorithm in academic works must cite the following references:
 
-[1] Máximo, V. R., Cordeau, J. F.,  Nascimento, M. C. (2023). 
+[1] Máximo, V. R., Cordeau, J. F.,  Nascimento, M. C. V. (2023). 
 A hybrid adaptive iterated local search heuristic for the maximal covering location problem. International Transactions in Operational Research.  https://doi.org/10.1111/itor.13387
 
 [2] Máximo, Vinícius R., Nascimento, Mariá C.V. (2021).
